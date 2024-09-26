@@ -1,0 +1,381 @@
+/* --------------------NAVBAR------------------------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+    background-color: #f5f5f5;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Mountains of Christmas', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+nav{
+    background-color: rgb(3, 8, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 50px;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.548);
+    color: white;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+  }
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+
+    align-items: center;
+    gap: 20px;
+}
+li{
+    width: 70px;
+}
+
+li a{
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 20px 15px;
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: white;
+    font-weight: bolder;
+    border-bottom: 0.5px solid white;
+}
+
+
+/* ------------------------------SLIDING-BANNER----------------------- */
+
+.carousel-container {
+    position: relative;
+    max-width: 98%;
+    margin: 0 auto;
+  }
+  
+  .slides {
+    display: flex;
+
+  }
+  
+  .slide {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 80px;
+  }
+  
+  .active {
+    display: flex;
+  }
+  
+  .dots-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .active-dot {
+    background-color: #333;
+  }
+
+
+/* -------------------------------FILTER------------------------------- */
+
+.filter{
+    height: 1100px;
+    width: 350px;
+    background-color: transparent;
+    margin-top: 100px;
+    position: absolute;
+    top: 650px;
+    left: 100px;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 15PX;
+}
+
+.filter h2{
+    padding: 20px 0px   ;
+}
+
+label{
+    margin-top: 20px;
+}
+
+
+.filter div{
+    width: 150px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 8px;
+    padding-left: 20px;
+}
+
+/* ---------------------------------SIDE IMAGE------------------------ */
+.filter .long{
+    /* margin-left: -85px;
+    margin-top: 100px; */
+    height: 700px;
+    width: 470px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.vivobook{
+    background-image: url(https://i.pinimg.com/564x/ac/ff/ac/acffac58e603918d73374433e03fc87c.jpg);
+    margin-left: -80px;
+    margin-top: 100px;
+}
+
+.tuf{
+    margin-top: 500px;
+    margin-left: -100px;
+    background-image: url(https://i.pinimg.com/564x/ef/af/81/efaf810c020e5651c09647081e34f193.jpg);
+}
+
+.proart{
+    margin-top: 80px;
+    margin-left: -80px;
+    background-image: url(https://i.pinimg.com/564x/95/f7/c4/95f7c4af80449e65e885d1bd51229715.jpg);
+}
+
+.Chromebook{
+    margin-top: 80px;
+    margin-left: -80px;
+    background-image: url(https://i.pinimg.com/564x/27/3d/13/273d13b8644ebd5b5ff15bcbfcf3f3c3.jpg);
+}
+
+.ROG{
+    margin-top: 80px;
+    margin-left: -80px;
+    background-image: url(https://i.pinimg.com/564x/3b/f2/9b/3bf29b4025f64c4fd5d49133c42548ae.jpg);
+}
+/* -------------------------------ITEMS------------------------------- */
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: right;
+    margin-right: 150px;
+}
+
+.laptop{
+    height: 972px;
+    width: 252px;
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 25px;
+    
+}
+
+.laptopimg{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.colors{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.col1{
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    
+    
+}
+
+.col2{
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(171, 171, 225);
+    
+}
+.col3{
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(219, 217, 217);
+    
+}
+.col4{
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(194, 197, 170);
+    
+}
+
+.items>a{
+    text-decoration: none;
+}
+
+a .size{
+    font-size: 17px;
+    margin: 20px 0px;
+}
+
+hr{
+    margin-top: 20px   ;
+}
+
+.startingprice{
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.prices{
+    font-size: 19px;
+    font-weight: bold;
+    color: #c74200;
+}
+
+.saver{
+display: flex;
+flex-wrap: wrap;
+font-size: 13px;
+font-weight: bolder;
+padding: 20px 0px;
+gap: 10px;
+}
+.original{
+    text-decoration: line-through;
+}
+
+.info{
+    font-size: 13px;
+    padding: 10px 0px;
+}
+
+li{
+    width: 100%;
+    margin-left: 15px;
+    text-align: left;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.btn{
+    padding: 5px;
+    margin-top: 25px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    background-color: rgb(21, 77, 232);
+}
+
+
+
+/* ----------------------------------------------FEATURES PROVIDED--------------------------------- */
+
+.features{
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 20px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 10px;
+}
+
+
+/* ----------------------------------------FOOTER---------------------------------- */
+
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(3, 8, 36);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Mountains+of+Christmas&family=Nunito:wght@200&family=Quicksand:wght@300&family=Ubuntu:wght@300&display=swap');
+
+.logo h2{
+    position: relative;
+    color: white;
+    bottom: -100px;
+    font-size: 100px;
+    padding: 10px;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Mountains of Christmas', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.ab{
+    height: 200px;
+    width: 300px;
+    /* background-color: #333; */
+}
+
+.ab div{
+    width: 80%;
+    padding: 20px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+
+
+
+  

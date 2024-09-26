@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: rgb(3, 8, 36);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* gap: 50px; */
+    padding: 20px 50px;
+    box-shadow: 10px 10px 10px rgba(41, 26, 26, 0.548);
+    color: white;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+  }
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+li{
+    width: 70px;
+}
+
+li a{
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 20px 15px;
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: white;
+    font-weight: bolder;
+    border-bottom: 0.5px solid white;
+}
+
+
+
+
+
+
+/* ------------------GALLARY------------------------- */
+
+body{
+    background: linear-gradient(to Right, #e4e0e0, #7c7777);
+}
+
+.a{
+ 
+    height: 650px;
+    width: 95%;
+    background-image: url(https://wallpapercave.com/wp/wp9311109.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: cover;
+    border-radius: 90px;
+}
+
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    height: 300px;
+    width: 250px;
+    background-color: aquamarine;
+    margin-top: 30px;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.b1{
+    background-image: url(https://i.pinimg.com/564x/5b/a8/8f/5ba88f91b76f355631cb134ca77feb43.jpg);
+}
+
+.b2{
+    background-image: url(https://i.pinimg.com/564x/48/aa/85/48aa85615ce6d19a4983cdc7ee0d9bc8.jpg);
+}
+
+.b3{
+    background-image: url(https://i.pinimg.com/564x/46/a5/4c/46a54cbd71ddd44bce34249d6d181851.jpg);
+}
+
+.b4{
+    background-image: url(https://i.pinimg.com/564x/b2/b8/7f/b2b87f3fbea10803ee867d837a34cdf1.jpg);
+}
+
+.b5{
+    background-image: url(https://i.pinimg.com/564x/47/24/75/47247506c250977a2f0eed8d74d46763.jpg);
+}
+
+
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.one{
+
+height: 320px;
+width: 40%;
+background-color: transparent;
+margin-top:20px;
+
+}
+
+.b6{
+    background-image: url(https://i.pinimg.com/564x/47/24/75/47247506c250977a2f0eed8d74d46763.jpg);
+    background-size: cover;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box1{
+    height: 320px;
+    width: 40%;
+    background-color: white;
+}
+
+.b7{
+    background-image: url(https://i.pinimg.com/564x/25/c0/3a/25c03a0bc458bfdf71208c459aa406c1.jpg);
+    background-size: cover;
+}
+
+.b8{
+    background-image: url(https://i.pinimg.com/564x/25/c0/3a/25c03a0bc458bfdf71208c459aa406c1.jpg);
+    background-size: cover;
+}
+
+.b9{
+    background-image: url(https://i.pinimg.com/736x/1c/b5/1a/1cb51a09e02b172269083f2775aa36ba.jpg);
+    background-size: cover;
+}
+
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    width: 650px;
+}
+
+.box2{
+    height: 320px;
+    width: 40%;
+    background-color: white;
+}
+
+.b10{
+    background-image: url(https://i.pinimg.com/564x/93/bd/d2/93bdd2b1dd4d6a25bb666ef186f0a1c4.jpg);
+    background-size: cover;
+}
+
+.b11{
+    background-image: url(https://i.pinimg.com/564x/63/a1/ed/63a1ed1e093a047e6a508b86218c191d.jpg);
+    background-size: cover;
+}
+
+/* .b12{
+    background-image: url(https://i.pinimg.com/736x/1c/b5/1a/1cb51a09e02b172269083f2775aa36ba.jpg);
+    background-size: cover;
+} */
+
+.b13{
+    background-image: url(https://i.pinimg.com/564x/47/24/75/47247506c250977a2f0eed8d74d46763.jpg);
+    background-size: cover;
+}
+
+
+/* -----------------------------------FOOTER---------------------------------- */
+
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(3, 8, 36);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Mountains+of+Christmas&family=Nunito:wght@200&family=Quicksand:wght@300&family=Ubuntu:wght@300&display=swap');
+
+.logo h2{
+    position: relative;
+    color: white;
+    bottom: -100px;
+    font-size: 100px;
+    padding: 10px;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Mountains of Christmas', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.ab{
+    height: 200px;
+    width: 300px;
+    /* background-color: #333; */
+}
+
+.ab div{
+    width: 80%;
+    padding: 20px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+
+
+
+  

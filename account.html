@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: rgb(3,8,36);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .user-profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .user-profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            
+        }
+
+        .user-info {
+            margin-bottom: 20px;
+        }
+
+        .user-info p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(3,8,36);
+        }
+    </style>
+</head>
+<body style="background-image: url(https://img.freepik.com/free-vector/geometric-gradient-futuristic-background_23-2149116406.jpg);">
+
+    <header>
+        <h1>My Account</h1>
+    </header>
+    
+   
+    <section>
+        <div class="user-profile">
+            <img src="data:image/jpeg;base64,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" alt="User Avatar">
+        </div>
+
+        <div class="user-info">
+            <p><strong>Name:</strong> Sunit</p>
+            <p><strong>Email:</strong> sunit@gmail.com</p>
+            <p><strong>Username:</strong> sunit</p>
+
+            <p><strong>Contact:</strong> 1800-412-3737</p>
+            <p><strong>Address:</strong> At-JavaByKiran, karve nagar, Pune</p>
+        </div>
+
+       <a href="index.html"><button>Sign Out</button></a>
+    </section>
+
+</body>
+</html>
